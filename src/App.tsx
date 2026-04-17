@@ -13,7 +13,7 @@ if (import.meta.env.MODE === 'development') {
 }
 
 const App = () => (
-  <div>
+  <div className="data-catalog-wrapper">
     <BrowserRouter>
       <Routes>
         <Route path="*" element={<DataCatalog />} />

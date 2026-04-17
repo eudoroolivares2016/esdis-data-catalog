@@ -281,7 +281,7 @@ const DataCatalog: React.FC = () => {
   }
 
   return (
-    <div className="data-catalog-wrapper">
+    <div>
       <Formik
         initialValues={collectionSearchParams}
         onSubmit={handleSubmit}
